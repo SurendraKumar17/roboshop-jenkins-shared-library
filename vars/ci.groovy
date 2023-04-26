@@ -2,7 +2,7 @@ def call() {
     pipeline {
 
         agent {
-            label 'workstation1'
+            label 'workstation2'
         }
 
         stages {

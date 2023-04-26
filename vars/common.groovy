@@ -7,5 +7,8 @@ def compile() {
         sh 'mvn package'
     }
 
+    if ( app_lang == "golang"){
+        sh 'install golang'
+    }
 
 }

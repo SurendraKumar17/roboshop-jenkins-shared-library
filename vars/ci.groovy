@@ -37,8 +37,8 @@ def call() {
                  common.artifactPush()
              }
          }
-     }
+    // }
     } //catch(Exception e) {
-    //common.email("Failed")
+    //  common.email("Failed")
    // }
 }

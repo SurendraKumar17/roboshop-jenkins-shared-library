@@ -1,5 +1,5 @@
 def call() {
-     try {
+     //try {
          node('workstation') {
 
              stage('Checkout') {
@@ -38,7 +38,7 @@ def call() {
              }
          }
      }
-    } catch(Exception e) {
-    common.email("Failed")
-    }
+    } //catch(Exception e) {
+    //common.email("Failed")
+   // }
 }

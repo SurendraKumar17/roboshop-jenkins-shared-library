@@ -32,3 +32,7 @@ def unittests() {
 def email(email_note) {
     mail bcc: '', body: "Job Failed - ${JOB_BASE_NAME}\nJenkins URL - ${JOB_URL}", cc: '', from: 'surendrapandrinki17@gmail.com', replyTo: '', subject: "Jenkins Job Failed - ${JOB_BASE_NAME}", to: 'surendrapandrinki17@gmail.com'
 }
+
+def artifactPush() {
+
+}

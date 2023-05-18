@@ -15,7 +15,7 @@ def call() {
    }
 
     try {
-        node('workstation') {
+        node('workstation') { //
 
             stage('Checkout') {
                 cleanWs()

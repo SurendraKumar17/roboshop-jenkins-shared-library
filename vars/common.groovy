@@ -34,5 +34,5 @@ def email(email_note) {
 }
 
 def artifactPush() {
-
+   echo 'hello'
 }

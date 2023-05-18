@@ -8,11 +8,11 @@ def call() {
         env.extraFiles = " "
     }
 
-    //if(!env.TAG_NAME) {
-     //   env.PUSH_CODE = "false"
-  //  } else {
-  //      env.PUSH_CODE = "true"
-  //  }
+    if(!env.TAG_NAME) {
+       env.PUSH_CODE = "false"
+   } else {
+       env.PUSH_CODE = "true"
+   }
 
     try {
         node('workstation') {
